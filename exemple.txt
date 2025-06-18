@@ -1,0 +1,28 @@
+# methode pour recupere les contenue et logique 
+def streamlit_content():
+    data = {
+            "role": "user",
+            "content": None
+        }
+    prompt = st.chat_input("Say something")
+    if prompt:
+        data['content'] = prompt
+        streamlit_write(content=prompt)
+
+    agent_prompt_history(data=data)
+    if user_disction_history:
+        response_agent = http_request(data_=user_disction_history) # user_disction_history variable global
+
+    if response_agent:
+        agent_prompt_history(data=response_agent)
+        #st.write(reponse_agent)
+
+
+    bonjour, je veux faire un achat de vetement de luxe gucci
+
+    bonjour, je veux faire un achat de vetement de luxe gucci, mais je n'ais pas de preference pour le moment, 
+    donc comme c'est vous l'expert proposer moi quelques chose
+
+    je veux un t-shirt, rouge de taille M a livré demain soir 12h30
+
+    bonjour, je veux passer une command d'un article de beauté pour soit de la peau

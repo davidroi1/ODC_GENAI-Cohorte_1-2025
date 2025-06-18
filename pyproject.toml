@@ -1,0 +1,34 @@
+[project]
+name = "odc_genai-cohorte_1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "davidroi1",email = "vagba.belia1@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.9,>=3.12"
+dependencies = [
+    "numpy (>=2.2.6,<3.0.0)",
+    "fastapi[standard] (>=0.115.12,<0.116.0)",
+    "uvicorn[standard] (>=0.34.2,<0.35.0)",
+    "pendulum (>=3.1.0,<4.0.0)",
+    "jupyterlab (>=4.4.2,<5.0.0)",
+    "notebook (>=7.4.2,<8.0.0)",
+    "voila (>=0.5.8,<0.6.0)",
+    "langchain (>=0.3.25,<0.4.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "pydantic (>=2.11.4,<3.0.0)",
+    "pypdf2 (>=3.0.1,<4.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "multipart (>=1.2.1,<2.0.0)",
+    "openai (>=1.88.0,<2.0.0)",
+    "streamlit (>=1.46.0,<2.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

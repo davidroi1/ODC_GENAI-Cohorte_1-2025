@@ -1,0 +1,120 @@
+{
+  "Client": [
+    {
+      "ID_Client": 1,
+      "Nom": "Dupont",
+      "Prénom": "Jean",
+      "Email": "jean.dupont@email.com",
+      "Téléphone": "0612345678",
+      "Adresse": "12 Rue de la Paix, Paris"
+    },
+    {
+      "ID_Client": 2,
+      "Nom": "Martin",
+      "Prénom": "Sophie",
+      "Email": "sophie.martin@email.com",
+      "Téléphone": "0698765432",
+      "Adresse": "25 Avenue des Champs, Lyon"
+    },
+    {
+      "ID_Client": 3,
+      "Nom": "Leroy",
+      "Prénom": "Pierre",
+      "Email": "pierre.leroy@email.com",
+      "Téléphone": "0687654321",
+      "Adresse": "8 Boulevard Voltaire, Marseille"
+    },
+    {
+      "ID_Client": 4,
+      "Nom": "Dubois",
+      "Prénom": "Marie",
+      "Email": "marie.dubois@email.com",
+      "Téléphone": "0678912345",
+      "Adresse": "15 Rue du Commerce, Lille"
+    },
+    {
+      "ID_Client": 5,
+      "Nom": "Bernard",
+      "Prénom": "Thomas",
+      "Email": "thomas.bernard@email.com",
+      "Téléphone": "0632145698",
+      "Adresse": "42 Avenue Foch, Bordeaux"
+    },
+    {
+      "ID_Client": 6,
+      "Nom": "Petit",
+      "Prénom": "Alice",
+      "Email": "alice.petit@email.com",
+      "Téléphone": "0698745632",
+      "Adresse": "7 Rue de la République, Nantes"
+    },
+    {
+      "ID_Client": 7,
+      "Nom": "Moreau",
+      "Prénom": "Julien",
+      "Email": "julien.moreau@email.com",
+      "Téléphone": "0654789123",
+      "Adresse": "33 Rue Victor Hugo, Toulouse"
+    },
+    {
+      "ID_Client": 8,
+      "Nom": "Laurent",
+      "Prénom": "Camille",
+      "Email": "camille.laurent@email.com",
+      "Téléphone": "0645897123",
+      "Adresse": "19 Boulevard Gambetta, Nice"
+    },
+    {
+      "ID_Client": 9,
+      "Nom": "Simon",
+      "Prénom": "Luc",
+      "Email": "luc.simon@email.com",
+      "Téléphone": "0678451296",
+      "Adresse": "5 Rue Pasteur, Strasbourg"
+    },
+    {
+      "ID_Client": 10,
+      "Nom": "Michel",
+      "Prénom": "Élodie",
+      "Email": "elodie.michel@email.com",
+      "Téléphone": "0696325418",
+      "Adresse": "22 Avenue Jean Jaurès, Montpellier"
+    }
+  ],
+  "Produit": [
+    { "ID_Produit": 101, "Nom_Produit": "Ordinateur Portable", "Catégorie": "Informatique", "Prix": 899.99, "Stock": 50 },
+    { "ID_Produit": 102, "Nom_Produit": "Smartphone Pro", "Catégorie": "Électronique", "Prix": 699.99, "Stock": 100 },
+    { "ID_Produit": 103, "Nom_Produit": "Roman Best-Seller", "Catégorie": "Livres", "Prix": 19.99, "Stock": 200 },
+    { "ID_Produit": 104, "Nom_Produit": "Casque Bluetooth", "Catégorie": "Audio", "Prix": 129.99, "Stock": 75 },
+    { "ID_Produit": 105, "Nom_Produit": "Montre Connectée", "Catégorie": "Accessoires", "Prix": 249.99, "Stock": 60 },
+    { "ID_Produit": 106, "Nom_Produit": "Cafetière Électrique", "Catégorie": "Électroménager", "Prix": 59.99, "Stock": 120 },
+    { "ID_Produit": 107, "Nom_Produit": "Sac à Dos", "Catégorie": "Mode", "Prix": 39.99, "Stock": 150 },
+    { "ID_Produit": 108, "Nom_Produit": "Enceinte Portable", "Catégorie": "Audio", "Prix": 89.99, "Stock": 80 },
+    { "ID_Produit": 109, "Nom_Produit": "Baskets de Sport", "Catégorie": "Chaussures", "Prix": 79.99, "Stock": 90 },
+    { "ID_Produit": 110, "Nom_Produit": "Écran 24\"", "Catégorie": "Informatique", "Prix": 179.99, "Stock": 40 }
+  ],
+  "Commande": [
+    { "ID_Commande": 1001, "ID_Client": 3, "Date_Commande": "2023-05-15", "Montant_Total": 919.98, "Statut": "Livré" },
+    { "ID_Commande": 1002, "ID_Client": 7, "Date_Commande": "2023-05-16", "Montant_Total": 249.99, "Statut": "Expédié" },
+    { "ID_Commande": 1003, "ID_Client": 1, "Date_Commande": "2023-05-17", "Montant_Total": 129.99, "Statut": "En préparation" },
+    { "ID_Commande": 1004, "ID_Client": 5, "Date_Commande": "2023-05-18", "Montant_Total": 59.99, "Statut": "Livré" },
+    { "ID_Commande": 1005, "ID_Client": 2, "Date_Commande": "2023-05-19", "Montant_Total": 699.99, "Statut": "Expédié" },
+    { "ID_Commande": 1006, "ID_Client": 10, "Date_Commande": "2023-05-20", "Montant_Total": 179.99, "Statut": "En attente" },
+    { "ID_Commande": 1007, "ID_Client": 3, "Date_Commande": "2023-05-21", "Montant_Total": 39.99, "Statut": "Livré" },
+    { "ID_Commande": 1008, "ID_Client": 3, "Date_Commande": "2023-05-22", "Montant_Total": 89.99, "Statut": "Expédié" },
+    { "ID_Commande": 1009, "ID_Client": 6, "Date_Commande": "2023-05-23", "Montant_Total": 79.99, "Statut": "En préparation" },
+    { "ID_Commande": 1010, "ID_Client": 10, "Date_Commande": "2023-05-24", "Montant_Total": 199.98, "Statut": "En attente" }
+  ],
+  "Ligne_Commande": [
+    { "ID_Ligne": 1, "ID_Commande": 1001, "ID_Produit": 101, "Quantité": 1, "Prix_Unitaire": 899.99 },
+    { "ID_Ligne": 2, "ID_Commande": 1001, "ID_Produit": 107, "Quantité": 1, "Prix_Unitaire": 39.99 },
+    { "ID_Ligne": 3, "ID_Commande": 1002, "ID_Produit": 105, "Quantité": 1, "Prix_Unitaire": 249.99 },
+    { "ID_Ligne": 4, "ID_Commande": 1003, "ID_Produit": 104, "Quantité": 1, "Prix_Unitaire": 129.99 },
+    { "ID_Ligne": 5, "ID_Commande": 1004, "ID_Produit": 106, "Quantité": 1, "Prix_Unitaire": 59.99 },
+    { "ID_Ligne": 6, "ID_Commande": 1005, "ID_Produit": 102, "Quantité": 1, "Prix_Unitaire": 699.99 },
+    { "ID_Ligne": 7, "ID_Commande": 1006, "ID_Produit": 110, "Quantité": 1, "Prix_Unitaire": 179.99 },
+    { "ID_Ligne": 8, "ID_Commande": 1007, "ID_Produit": 107, "Quantité": 1, "Prix_Unitaire": 39.99 },
+    { "ID_Ligne": 9, "ID_Commande": 1008, "ID_Produit": 108, "Quantité": 1, "Prix_Unitaire": 89.99 },
+    { "ID_Ligne": 10, "ID_Commande": 1009, "ID_Produit": 109, "Quantité": 1, "Prix_Unitaire": 79.99 }
+  ]
+}
