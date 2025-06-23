@@ -25,4 +25,4 @@ def streamlit_content():
 
     je veux un t-shirt, rouge de taille M a livré demain soir 12h30
 
-    bonjour, je veux passer une command d'un article de beauté pour soit de la peau
+    bonjour, je veux passer une command d'un article de beauté pour soit de la peaubonsoir je veux faire une commande de gucci noir et nike
