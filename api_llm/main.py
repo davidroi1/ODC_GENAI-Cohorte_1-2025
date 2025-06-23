@@ -67,3 +67,14 @@ async def user_role(demande: Command):
     dev_json_data = json.loads(response.output_text)
 
     return dev_json_data, response.output[0].role
+
+
+# rout for developer
+@app.post('/chat')
+async def agent_chat(discution: Annotated[list[dict[str, str]], Body()]):
+    agent_response = invoke_agent(query=discution)
+
+    return {
+        "role": "assistant",
+        "content": agent_response.output_text
+    }

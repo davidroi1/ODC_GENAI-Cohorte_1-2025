@@ -5,7 +5,7 @@ import configs
 client = OpenAI(api_key=configs.OPENAI_API_KEY)
 
 
-def invoke(query, instruction, roles):
+def invoke_unique(query, instruction):
     return client.responses.create(
         model="gpt-4o", 
         input=[
@@ -16,4 +16,12 @@ def invoke(query, instruction, roles):
         ],
         temperature=0,
         instructions=instruction
+    )
+
+
+def invoke_agent(query: list[dict[str]]):
+    return client.responses.create(
+        model="gpt-4o", 
+        input=query,
+        temperature=0.6
     )

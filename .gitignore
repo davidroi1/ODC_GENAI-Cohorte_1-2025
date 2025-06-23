@@ -1,2 +1,3 @@
 .venv/
 llm_agent/api/.env
+llm_agent/api_agent/src/__pycache__/
